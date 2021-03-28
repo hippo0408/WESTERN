@@ -1,0 +1,172 @@
+@media(max-width:780px){
+    .header{
+        display: none;
+    }
+
+    .main-title h1{
+        font-size: 80px;
+        top:30%;
+        left: 15%;
+    }
+
+   .main-title .top{
+        left: 28%;
+    }
+
+    .main-title .sub{
+        left: 24%;
+        font-size: 20px;
+    }
+   
+#about{
+    width: 100%;
+    
+}
+
+    .about-wrapper{
+        flex-direction: column;;
+        
+       
+    }
+
+    .about-wrapper img{
+        width: 80%;
+    }
+
+    .about-wrapper p{
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .link-wrapper{
+        flex-direction: column;
+    }
+
+    .contents{
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    #roster{
+        width: 100%;
+    }
+
+    .roster-header img{
+        height: 400px;
+        
+    }
+
+.roster-header h3{
+    left: 5%;
+}
+
+    .roster-header p{
+        top: 300px;
+        left: 5%;
+    }
+
+    .member{
+        width: 50%;
+    }
+
+.member-card{
+    height: 40px;
+   
+}
+
+.member-image img{
+    height: 300px;
+}
+
+    .member-card .number{
+        font-size:1.8em;
+       
+        padding-bottom: 35px;
+       
+       
+    }
+
+    .member-card .name{
+        font-size: 1.3em;
+    }
+
+    .profile ul li{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profile ul li span{
+        font-size: 12px;
+        line-height: 1.2;
+        color:white;
+        width: 100%;
+        text-align: right;
+        margin-right: -25px;
+        
+        
+    }
+
+    .profile ul li span:first-child{
+        text-align: left;
+        margin-left: -30px;
+    }
+    
+    #gallary{
+        width: 100%;
+    }
+
+.photos{
+    flex-direction: column;
+}
+
+.photo-wrapper img{
+    width: 100%;
+}
+
+.girls-wrapper img{
+    width: 100%;
+}
+
+.words-wrapper{
+   width: 100%;
+   background-size: contain;
+    
+}
+
+.person img{
+    border-radius: 50%;
+    width: 120px;
+    padding: 15px;
+}
+
+.person-wrapper{
+    margin: 0 auto;
+    display: flex;
+}
+
+.person h3{
+    color: #fff;
+    text-align: center;
+    font-size:18px;
+    font-weight: lighter;
+}
+
+.person-words{
+    background:#fff;
+    border-radius: 8px;
+    padding: 4px 8px;
+    position:relative;
+    margin-top: 70px;
+}
+
+.person-words ul li{
+    padding:4px;
+}
+
+}
+
+    @media(min-width:780px){
+        .sub-header{
+            display: none;
+        } 
+     }
